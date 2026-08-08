@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:rotten_flesh",
+		"minecraft:bone_meal",
+		"minecraft:coal",
+		"minecraft:redstone"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:gunpowder"
+	}
+}
