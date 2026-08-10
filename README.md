@@ -7,6 +7,16 @@ Added so far:
   - sulfur spike = 1x gunpowder
 - gravel
   - 2x flint and 2x dirt = 2x gravel
+- string
+  - 1x wool = 4x string
+- saplings
+  - 1x leaves = 1x sapling
+- prismarine
+  - 2x raw copper and 2x quartz = 2x prismarine
+  - 4x prismarine = 4x prismarine bricks
+  - 8x prismarine and 1x black dye = 8x dark prismarine
+- black dye
+  - coal and charcoal work as well as inc sacs and wither roses
  
 ## loot
 - gravel drops 1x flint and 1x dirt
