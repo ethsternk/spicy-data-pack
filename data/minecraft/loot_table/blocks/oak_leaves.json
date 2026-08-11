@@ -172,7 +172,7 @@
                 0.005,
                 0.0055555557,
                 0.00625,
-                0.008333334,
+                0.9,
                 0.025
               ],
               "condition": "minecraft:table_bonus",
@@ -205,6 +205,11 @@
                       ]
                     }
                   ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2.4,
+                  "can_always_eat": true
                 }
               }
             }
