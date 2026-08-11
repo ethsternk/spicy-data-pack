@@ -24,6 +24,8 @@ Added so far:
   - silk touch still gives 1x gravel
 - chickens now randomly drop a feather or an egg (instead of just egg)
 - zombies drop 0-1 leather on death (in addition to the usual)
+- apples now give 10 seconds of regen
+  - todo: add to chest loot tables and maybe inventory watcher
 
 ## blasting
 - cobblestone or cobbled deepslate can be blasted into gravel (regular furnace still gives smooth stone or smooth deepslate respectively)
