@@ -1,0 +1,1 @@
+tellraw @a "spicy data pack loaded"
