@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "minecraft:potato",
+  "result": {
+    "id": "minecraft:baked_potato",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "🍗 Saturation (0:01)",
+          "color": "#e85e8f",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:saturation",
+                "duration": 20,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 6,
+        "can_always_eat": true
+      },
+      "minecraft:custom_data": {
+        "spicy_version": "v1"
+      }
+    }
+  }
+}
