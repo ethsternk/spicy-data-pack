@@ -2,7 +2,8 @@ da progress
 
 ## food effects
 - apples now give 10 seconds of regen
-- baked potatoes now give 1 second of saturation (fills your hunger and saturation 100%)
+- baked potatoes now give 30 seconds of absorption
+- beetroot soup now gives 90 seconds of strength
 
 ## crafting
 - gunpowder
