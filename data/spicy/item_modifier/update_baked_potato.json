@@ -3,8 +3,8 @@
     "components": {
         "minecraft:lore": [
             {
-                "text": "🍗 Saturation (0:01)",
-                "color": "#e85e8f",
+                "text": "❈ Absorption (0:30)",
+                "color": "aqua",
                 "italic": false
             }
         ],
@@ -14,8 +14,8 @@
                     "type": "minecraft:apply_effects",
                     "effects": [
                         {
-                            "id": "minecraft:saturation",
-                            "duration": 20,
+                            "id": "minecraft:absorption",
+                            "duration": 600,
                             "show_particles": false,
                             "show_icon": true
                         }
