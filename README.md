@@ -1,10 +1,8 @@
-Added so far:
+da progress
 
 ## food effects
 - apples now give 10 seconds of regen
-  - from leaves
-  - from loot chests
-  - from farmer villager
+- baked potatoes now give 1 second of saturation (fills your hunger and saturation 100%)
 
 ## crafting
 - gunpowder
