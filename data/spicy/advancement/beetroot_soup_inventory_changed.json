@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "beetroot_soup_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot_soup"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/beetroot_soup"
+  }
+}
