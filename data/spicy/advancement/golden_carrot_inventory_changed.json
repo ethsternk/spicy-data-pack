@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "golden_carrot_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_carrot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/golden_carrot"
+  }
+}
