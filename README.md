@@ -4,6 +4,8 @@ da progress
 - apples now give 10 seconds of regen
 - baked potatoes now give 30 seconds of absorption
 - beetroot soup now gives 90 seconds of strength
+- bread gives you purify (cleanses negative effects)
+- cake gives you 60 seconds of sugar rush (try it for yourself)
 
 ## crafting
 - gunpowder
