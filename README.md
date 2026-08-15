@@ -6,6 +6,7 @@ da progress
 - beetroot soup now gives 90 seconds of strength
 - bread gives you purify (cleanses negative effects)
 - cake gives you 60 seconds of sugar rush (try it for yourself)
+- carrots give you 30 seconds of night vision
 
 ## crafting
 - gunpowder
