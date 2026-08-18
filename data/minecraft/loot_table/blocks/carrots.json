@@ -74,10 +74,7 @@
                 "extra": 3,
                 "probability": 0.5714286
               }
-            }
-          ],
-          "name": "minecraft:carrot",
-          "functions": [
+            },
             {
               "function": "minecraft:set_components",
               "components": {
@@ -113,7 +110,8 @@
                 }
               }
             }
-          ]
+          ],
+          "name": "minecraft:carrot"
         }
       ],
       "rolls": 1.0
