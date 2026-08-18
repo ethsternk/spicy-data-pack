@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "pufferfish_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pufferfish"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/pufferfish"
+  }
+}

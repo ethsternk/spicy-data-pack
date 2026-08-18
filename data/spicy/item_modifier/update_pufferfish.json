@@ -1,0 +1,57 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:lore": [
+            {
+                "text": "🫧 Water Breathing (2:00)",
+                "color": "#66cdaa",
+                "italic": false
+            },
+            {
+                "text": "꩜ Nausea (0:30)",
+                "color": "light_purple",
+                "italic": false
+            },
+            {
+                "text": "💀 Poison (0:10)",
+                "color": "green",
+                "italic": false
+            }
+        ],
+        "minecraft:consumable": {
+            "on_consume_effects": [
+                {
+                    "type": "minecraft:apply_effects",
+                    "effects": [
+                        {
+                            "id": "minecraft:water_breathing",
+                            "duration": 2400,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "minecraft:nausea",
+                            "duration": 600,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "minecraft:poison",
+                            "duration": 200,
+                            "show_particles": false,
+                            "show_icon": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "minecraft:food": {
+            "nutrition": 1,
+            "saturation": 0.2,
+            "can_always_eat": true
+        },
+        "minecraft:custom_data": {
+            "spicy_version": "v1"
+        }
+    }
+}

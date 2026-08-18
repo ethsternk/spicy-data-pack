@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "spider_eye_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/spider_eye"
+  }
+}
