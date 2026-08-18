@@ -20,6 +20,8 @@ Stews and soups are now stackable to 64.
 
 <img width="461" height="110" alt="2026-08-18_15 59 22" src="https://github.com/user-attachments/assets/39a6db21-288d-454c-a7fe-b4349099a4b2" />
 
+There are ~20 new food effects in total, but only open that full list below if you want to be spoiled!
+
 <details>
 <summary>Full food list (spoilers)</summary>
 <img width="531" height="107" alt="2026-08-18_16 05 29" src="https://github.com/user-attachments/assets/e8558e4b-5255-41ee-818e-e3c783ff2c13" />
