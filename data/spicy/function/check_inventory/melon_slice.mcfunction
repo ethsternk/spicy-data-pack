@@ -1,5 +1,4 @@
 # tellraw @a "running melon_slice function"
-advancement revoke @s only spicy:melon_slice_inventory_changed
 execute if items entity @s container.0 minecraft:melon_slice[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_melon_slice
 execute if items entity @s container.1 minecraft:melon_slice[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_melon_slice
 execute if items entity @s container.2 minecraft:melon_slice[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_melon_slice
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:melon_slice[!minecraft:custom_
 execute if items entity @s container.34 minecraft:melon_slice[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_melon_slice
 execute if items entity @s container.35 minecraft:melon_slice[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_melon_slice
 execute if items entity @s weapon.offhand minecraft:melon_slice[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_melon_slice
+
+advancement revoke @s only spicy:melon_slice_inventory_changed

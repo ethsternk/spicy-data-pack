@@ -1,5 +1,4 @@
 # tellraw @a "running golden_carrot function"
-advancement revoke @s only spicy:golden_carrot_inventory_changed
 execute if items entity @s container.0 minecraft:golden_carrot[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_golden_carrot
 execute if items entity @s container.1 minecraft:golden_carrot[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_golden_carrot
 execute if items entity @s container.2 minecraft:golden_carrot[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_golden_carrot
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:golden_carrot[!minecraft:custo
 execute if items entity @s container.34 minecraft:golden_carrot[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_golden_carrot
 execute if items entity @s container.35 minecraft:golden_carrot[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_golden_carrot
 execute if items entity @s weapon.offhand minecraft:golden_carrot[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_golden_carrot
+
+advancement revoke @s only spicy:golden_carrot_inventory_changed

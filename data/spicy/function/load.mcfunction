@@ -15,6 +15,7 @@ advancement revoke @a only spicy:honey_bottle_inventory_changed
 advancement revoke @a only spicy:melon_slice_inventory_changed
 advancement revoke @a only spicy:mushroom_stew_inventory_changed
 advancement revoke @a only spicy:popped_chorus_fruit_inventory_changed
+advancement revoke @a only spicy:pufferfish_inventory_changed
 advancement revoke @a only spicy:pumpkin_pie_inventory_changed
 advancement revoke @a only spicy:rabbit_stew_inventory_changed
 advancement revoke @a only spicy:sweet_berries_inventory_changed

@@ -1,5 +1,4 @@
 # tellraw @a "running baked_potato function"
-advancement revoke @s only spicy:baked_potato_inventory_changed
 execute if items entity @s container.0 minecraft:baked_potato[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_baked_potato
 execute if items entity @s container.1 minecraft:baked_potato[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_baked_potato
 execute if items entity @s container.2 minecraft:baked_potato[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_baked_potato
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:baked_potato[!minecraft:custom
 execute if items entity @s container.34 minecraft:baked_potato[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_baked_potato
 execute if items entity @s container.35 minecraft:baked_potato[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_baked_potato
 execute if items entity @s weapon.offhand minecraft:baked_potato[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_baked_potato
+
+advancement revoke @s only spicy:baked_potato_inventory_changed

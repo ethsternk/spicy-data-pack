@@ -1,5 +1,4 @@
 # tellraw @a "running honey_bottle function"
-advancement revoke @s only spicy:honey_bottle_inventory_changed
 execute if items entity @s container.0 minecraft:honey_bottle[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_honey_bottle
 execute if items entity @s container.1 minecraft:honey_bottle[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_honey_bottle
 execute if items entity @s container.2 minecraft:honey_bottle[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_honey_bottle
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:honey_bottle[!minecraft:custom
 execute if items entity @s container.34 minecraft:honey_bottle[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_honey_bottle
 execute if items entity @s container.35 minecraft:honey_bottle[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_honey_bottle
 execute if items entity @s weapon.offhand minecraft:honey_bottle[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_honey_bottle
+
+advancement revoke @s only spicy:honey_bottle_inventory_changed

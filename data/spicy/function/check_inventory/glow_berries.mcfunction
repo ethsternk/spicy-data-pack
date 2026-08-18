@@ -1,5 +1,4 @@
 # tellraw @a "running glow_berries function"
-advancement revoke @s only spicy:glow_berries_inventory_changed
 execute if items entity @s container.0 minecraft:glow_berries[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_glow_berries
 execute if items entity @s container.1 minecraft:glow_berries[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_glow_berries
 execute if items entity @s container.2 minecraft:glow_berries[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_glow_berries
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:glow_berries[!minecraft:custom
 execute if items entity @s container.34 minecraft:glow_berries[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_glow_berries
 execute if items entity @s container.35 minecraft:glow_berries[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_glow_berries
 execute if items entity @s weapon.offhand minecraft:glow_berries[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_glow_berries
+
+advancement revoke @s only spicy:glow_berries_inventory_changed

@@ -1,5 +1,4 @@
 # tellraw @a "running spider_eye function"
-advancement revoke @s only spicy:spider_eye_inventory_changed
 execute if items entity @s container.0 minecraft:spider_eye[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_spider_eye
 execute if items entity @s container.1 minecraft:spider_eye[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_spider_eye
 execute if items entity @s container.2 minecraft:spider_eye[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_spider_eye
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:spider_eye[!minecraft:custom_d
 execute if items entity @s container.34 minecraft:spider_eye[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_spider_eye
 execute if items entity @s container.35 minecraft:spider_eye[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_spider_eye
 execute if items entity @s weapon.offhand minecraft:spider_eye[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_spider_eye
+
+advancement revoke @s only spicy:spider_eye_inventory_changed

@@ -1,5 +1,4 @@
 # tellraw @a "running cooked_cod function"
-advancement revoke @s only spicy:cooked_cod_inventory_changed
 execute if items entity @s container.0 minecraft:cooked_cod[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_cooked_cod
 execute if items entity @s container.1 minecraft:cooked_cod[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_cooked_cod
 execute if items entity @s container.2 minecraft:cooked_cod[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_cooked_cod
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:cooked_cod[!minecraft:custom_d
 execute if items entity @s container.34 minecraft:cooked_cod[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_cooked_cod
 execute if items entity @s container.35 minecraft:cooked_cod[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_cooked_cod
 execute if items entity @s weapon.offhand minecraft:cooked_cod[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_cooked_cod
+
+advancement revoke @s only spicy:cooked_cod_inventory_changed

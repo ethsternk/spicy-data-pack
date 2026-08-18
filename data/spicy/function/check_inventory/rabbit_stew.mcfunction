@@ -1,5 +1,4 @@
 # tellraw @a "running rabbit_stew function"
-advancement revoke @s only spicy:rabbit_stew_inventory_changed
 execute if items entity @s container.0 minecraft:rabbit_stew[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_rabbit_stew
 execute if items entity @s container.1 minecraft:rabbit_stew[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_rabbit_stew
 execute if items entity @s container.2 minecraft:rabbit_stew[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_rabbit_stew
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:rabbit_stew[!minecraft:custom_
 execute if items entity @s container.34 minecraft:rabbit_stew[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_rabbit_stew
 execute if items entity @s container.35 minecraft:rabbit_stew[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_rabbit_stew
 execute if items entity @s weapon.offhand minecraft:rabbit_stew[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_rabbit_stew
+
+advancement revoke @s only spicy:rabbit_stew_inventory_changed

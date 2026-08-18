@@ -1,5 +1,4 @@
 # tellraw @a "running dried_kelp function"
-advancement revoke @s only spicy:dried_kelp_inventory_changed
 execute if items entity @s container.0 minecraft:dried_kelp[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_dried_kelp
 execute if items entity @s container.1 minecraft:dried_kelp[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_dried_kelp
 execute if items entity @s container.2 minecraft:dried_kelp[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_dried_kelp
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:dried_kelp[!minecraft:custom_d
 execute if items entity @s container.34 minecraft:dried_kelp[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_dried_kelp
 execute if items entity @s container.35 minecraft:dried_kelp[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_dried_kelp
 execute if items entity @s weapon.offhand minecraft:dried_kelp[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_dried_kelp
+
+advancement revoke @s only spicy:dried_kelp_inventory_changed

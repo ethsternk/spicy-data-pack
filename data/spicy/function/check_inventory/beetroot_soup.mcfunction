@@ -1,5 +1,4 @@
 # tellraw @a "running beetroot_soup function"
-advancement revoke @s only spicy:beetroot_soup_inventory_changed
 execute if items entity @s container.0 minecraft:beetroot_soup[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_beetroot_soup
 execute if items entity @s container.1 minecraft:beetroot_soup[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_beetroot_soup
 execute if items entity @s container.2 minecraft:beetroot_soup[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_beetroot_soup
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:beetroot_soup[!minecraft:custo
 execute if items entity @s container.34 minecraft:beetroot_soup[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_beetroot_soup
 execute if items entity @s container.35 minecraft:beetroot_soup[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_beetroot_soup
 execute if items entity @s weapon.offhand minecraft:beetroot_soup[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_beetroot_soup
+
+advancement revoke @s only spicy:beetroot_soup_inventory_changed

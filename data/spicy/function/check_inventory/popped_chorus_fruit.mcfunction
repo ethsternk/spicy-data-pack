@@ -1,5 +1,4 @@
 # tellraw @a "running popped_chorus_fruit function"
-advancement revoke @s only spicy:popped_chorus_fruit_inventory_changed
 execute if items entity @s container.0 minecraft:popped_chorus_fruit[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_popped_chorus_fruit
 execute if items entity @s container.1 minecraft:popped_chorus_fruit[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_popped_chorus_fruit
 execute if items entity @s container.2 minecraft:popped_chorus_fruit[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_popped_chorus_fruit
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:popped_chorus_fruit[!minecraft
 execute if items entity @s container.34 minecraft:popped_chorus_fruit[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_popped_chorus_fruit
 execute if items entity @s container.35 minecraft:popped_chorus_fruit[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_popped_chorus_fruit
 execute if items entity @s weapon.offhand minecraft:popped_chorus_fruit[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_popped_chorus_fruit
+
+advancement revoke @s only spicy:popped_chorus_fruit_inventory_changed

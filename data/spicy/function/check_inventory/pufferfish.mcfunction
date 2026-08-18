@@ -1,5 +1,4 @@
 # tellraw @a "running pufferfish function"
-advancement revoke @s only spicy:pufferfish_inventory_changed
 execute if items entity @s container.0 minecraft:pufferfish[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_pufferfish
 execute if items entity @s container.1 minecraft:pufferfish[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_pufferfish
 execute if items entity @s container.2 minecraft:pufferfish[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_pufferfish
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:pufferfish[!minecraft:custom_d
 execute if items entity @s container.34 minecraft:pufferfish[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_pufferfish
 execute if items entity @s container.35 minecraft:pufferfish[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_pufferfish
 execute if items entity @s weapon.offhand minecraft:pufferfish[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_pufferfish
+
+advancement revoke @s only spicy:pufferfish_inventory_changed

@@ -1,5 +1,4 @@
 # tellraw @a "running cooked_salmon function"
-advancement revoke @s only spicy:cooked_salmon_inventory_changed
 execute if items entity @s container.0 minecraft:cooked_salmon[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_cooked_salmon
 execute if items entity @s container.1 minecraft:cooked_salmon[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_cooked_salmon
 execute if items entity @s container.2 minecraft:cooked_salmon[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_cooked_salmon
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:cooked_salmon[!minecraft:custo
 execute if items entity @s container.34 minecraft:cooked_salmon[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_cooked_salmon
 execute if items entity @s container.35 minecraft:cooked_salmon[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_cooked_salmon
 execute if items entity @s weapon.offhand minecraft:cooked_salmon[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_cooked_salmon
+
+advancement revoke @s only spicy:cooked_salmon_inventory_changed

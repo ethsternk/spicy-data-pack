@@ -1,5 +1,4 @@
 # tellraw @a "running cake function"
-advancement revoke @s only spicy:cake_inventory_changed
 execute if items entity @s container.0 minecraft:cake[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_cake
 execute if items entity @s container.1 minecraft:cake[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_cake
 execute if items entity @s container.2 minecraft:cake[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_cake
@@ -37,3 +36,5 @@ execute if items entity @s container.33 minecraft:cake[!minecraft:custom_data={s
 execute if items entity @s container.34 minecraft:cake[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_cake
 execute if items entity @s container.35 minecraft:cake[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_cake
 execute if items entity @s weapon.offhand minecraft:cake[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_cake
+
+advancement revoke @s only spicy:cake_inventory_changed
