@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "popped_chorus_fruit_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:popped_chorus_fruit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/popped_chorus_fruit"
+  }
+}
