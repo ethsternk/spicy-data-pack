@@ -3,7 +3,7 @@
     "components": {
         "minecraft:lore": [
             {
-                "text": "❤ Regen (0:10)",
+                "text": "❤ Regeneration (0:10)",
                 "color": "#e85e8f",
                 "italic": false
             }

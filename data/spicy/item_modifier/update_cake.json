@@ -3,7 +3,7 @@
     "components": {
         "minecraft:lore": [
             {
-                "translate": "🎂 Sugar Rush (1:00)",
+                "text": "🎂 Sugar Rush (1:00)",
                 "color": "#37cafb",
                 "italic": false
             }
