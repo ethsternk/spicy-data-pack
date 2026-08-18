@@ -1,0 +1,153 @@
+{
+  "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
+  "pools": [
+    {
+      "conditions": [
+        {
+          "block": "minecraft:sweet_berry_bush",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "3"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "functions": [
+        {
+          "count": {
+            "type": "minecraft:uniform",
+            "max": 3.0,
+            "min": 2.0
+          },
+          "function": "minecraft:set_count"
+        },
+        {
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "function": "minecraft:apply_bonus",
+          "parameters": {
+            "bonusMultiplier": 1
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "💕 Health Boost (2:00)",
+                "color": "#ff7f7f",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:health_boost",
+                      "duration": 2400,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:food": {
+              "nutrition": 2,
+              "saturation": 0.4,
+              "can_always_eat": true
+            },
+            "minecraft:custom_data": {
+              "spicy_version": "v1"
+            }
+          }
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "conditions": [
+        {
+          "block": "minecraft:sweet_berry_bush",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "2"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "functions": [
+        {
+          "count": {
+            "type": "minecraft:uniform",
+            "max": 2.0,
+            "min": 1.0
+          },
+          "function": "minecraft:set_count"
+        },
+        {
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "function": "minecraft:apply_bonus",
+          "parameters": {
+            "bonusMultiplier": 1
+          }
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "💕 Health Boost (2:00)",
+                "color": "#ff7f7f",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:health_boost",
+                      "duration": 2400,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:food": {
+              "nutrition": 2,
+              "saturation": 0.4,
+              "can_always_eat": true
+            },
+            "minecraft:custom_data": {
+              "spicy_version": "v1"
+            }
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/sweet_berry_bush"
+}
