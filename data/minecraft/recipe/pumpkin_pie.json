@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:pumpkin",
+    "minecraft:sugar",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "🛡 Resistance (2:30)",
+          "color": "#9370db",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:resistance",
+                "duration": 3000,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 4.8,
+        "can_always_eat": true
+      },
+      "minecraft:custom_data": {
+        "spicy_version": "v1"
+      }
+    }
+  }
+}
