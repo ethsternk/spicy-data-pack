@@ -1,5 +1,6 @@
 {
     "values": [
-        "spicy:load"
+        "spicy:load",
+        "mizi_repair_cost:reset"
     ]
 }

@@ -1,0 +1,115 @@
+{
+  "criteria": {
+    "repair_cost_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 1
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 3
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 7
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 15
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_31": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 31
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_63": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 63
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_127": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 127
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_255": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 255
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "repair_cost_1",
+      "repair_cost_3",
+      "repair_cost_7",
+      "repair_cost_15",
+      "repair_cost_31",
+      "repair_cost_63",
+      "repair_cost_127",
+      "repair_cost_255"
+    ]
+  ],
+  "rewards": {
+    "function": "mizi_repair_cost:reset_inventory"
+  }
+}
