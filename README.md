@@ -120,9 +120,14 @@ Works with coal or charcoal.
 Works with all leaves/saplings.
 
 ## Anvil
-Equipment no longer increases in repair damage. One set price!
+Equipment no longer increases in repair/enchant cost. One set price!
 
 Using Mizi's [Repair Cost Remover](https://modrinth.com/datapack/repair-cost-remover).
+
+<img width="689" height="321" alt="2026-08-18_17 01 24" src="https://github.com/user-attachments/assets/fd7d115d-e176-480d-9255-78ba315b22cf" />
+<br>
+<img width="997" height="470" alt="2026-08-18_17 01 35" src="https://github.com/user-attachments/assets/02fa9b9f-d985-40f7-9696-8a4d4ff13a61" />
+
 
 ## Stonecutting
 The stonecutter now works on copper, iron, and wood.
