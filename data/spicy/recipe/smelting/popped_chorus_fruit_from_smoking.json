@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:smoking",
   "category": "food",
   "experience": 0.1,
   "ingredient": "minecraft:chorus_fruit",
