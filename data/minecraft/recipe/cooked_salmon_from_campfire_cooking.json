@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "minecraft:salmon",
+  "result": {
+    "id": "minecraft:cooked_salmon",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "☘ Luck (2:00)",
+          "color": "#94d25a",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:luck",
+                "duration": 2400,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 9.6,
+        "can_always_eat": true
+      },
+      "minecraft:custom_data": {
+        "spicy_version": "v1"
+      }
+    }
+  }
+}
