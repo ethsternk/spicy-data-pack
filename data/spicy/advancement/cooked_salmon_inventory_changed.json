@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "cooked_salmon_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_salmon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/cooked_salmon"
+  }
+}

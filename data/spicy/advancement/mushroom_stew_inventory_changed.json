@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "mushroom_stew_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/mushroom_stew"
+  }
+}

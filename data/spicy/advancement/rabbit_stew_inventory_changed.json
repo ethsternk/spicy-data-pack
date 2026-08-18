@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "rabbit_stew_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_stew"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/rabbit_stew"
+  }
+}
