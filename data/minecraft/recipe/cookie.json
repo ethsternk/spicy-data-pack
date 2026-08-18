@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:wheat",
+    "X": "minecraft:cocoa_beans"
+  },
+  "pattern": [
+    "#X#"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "⛏ Haste II (0:45)",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:haste",
+                "amplifier": 1,
+                "duration": 900,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.4,
+        "can_always_eat": true
+      },
+      "minecraft:custom_data": {
+        "spicy_version": "v1"
+      }
+    }
+  }
+}
