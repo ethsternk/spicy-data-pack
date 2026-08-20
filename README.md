@@ -4,79 +4,90 @@ Various tweaks and fun changes inspired by Klei_Wright's [Matcha Flavoured](http
 ## Food
 Many foods now have intrinsic effects!
 
-<img width="538" height="108" alt="2026-08-18_15 56 38" src="https://github.com/user-attachments/assets/63ddb8ed-fea0-4e4d-9ad9-faf773a55d12" />
+<img width="538" height="108" alt="apple" src="https://github.com/user-attachments/assets/63ddb8ed-fea0-4e4d-9ad9-faf773a55d12" />
 <br>
-<img width="585" height="113" alt="2026-08-18_16 03 16" src="https://github.com/user-attachments/assets/a71b9b0d-60b5-410c-8fe5-bcdf3fddddef" />
+<img width="590" height="111" alt="melon-slice" src="https://github.com/user-attachments/assets/ff6667f8-889a-4061-ac52-bd026b6f9f6e" />
+<br>
+<img width="588" height="111" alt="glistering-melon-slice" src="https://github.com/user-attachments/assets/c3808a7f-9e03-4caf-ae77-92adc05be20a" />
+
+Prepare food to its most "final" form to achieve the greatest effect.
 
 Potions are still more powerful though, so don't throw away your brewing stand.
 
 Some effects unobtainable by potions are now possible with food.
 
-<img width="531" height="107" alt="2026-08-18_16 05 29" src="https://github.com/user-attachments/assets/760bf309-b1fa-45cc-beb0-d49bcef5ea52" />
+<img width="531" height="107" alt="sweet-berries" src="https://github.com/user-attachments/assets/760bf309-b1fa-45cc-beb0-d49bcef5ea52" />
 <br>
-<img width="440" height="112" alt="2026-08-18_16 01 05" src="https://github.com/user-attachments/assets/739cc414-67fa-413d-b380-7395d674fa10" />
+<img width="440" height="112" alt="cookie" src="https://github.com/user-attachments/assets/739cc414-67fa-413d-b380-7395d674fa10" />
 
 Stews and soups are now stackable to 64.
 
-<img width="461" height="110" alt="2026-08-18_15 59 22" src="https://github.com/user-attachments/assets/39a6db21-288d-454c-a7fe-b4349099a4b2" />
+<img width="461" height="110" alt="beetroot-soup" src="https://github.com/user-attachments/assets/39a6db21-288d-454c-a7fe-b4349099a4b2" />
 
 There are ~20 new food effects in total, but only open that full list below if you want to be spoiled!
 
 <details>
 <summary>Full food list (spoilers)</summary>
-<img width="531" height="107" alt="2026-08-18_16 05 29" src="https://github.com/user-attachments/assets/e8558e4b-5255-41ee-818e-e3c783ff2c13" />
+
+<img width="538" height="108" alt="apple" src="https://github.com/user-attachments/assets/a7327a6b-ca61-4e42-b9ba-53fa01b7d44c" />
 <br>
-<img width="479" height="150" alt="2026-08-18_16 05 21" src="https://github.com/user-attachments/assets/f97bf03c-a8fa-4685-a4f2-7288637c6676" />
+<img width="461" height="110" alt="beetroot-soup" src="https://github.com/user-attachments/assets/c8210220-ddc4-4d2d-9dce-ebb24fd66cf4" />
 <br>
-<img width="509" height="229" alt="2026-08-18_16 05 10" src="https://github.com/user-attachments/assets/4c0ebfbd-2bf9-458a-a86f-80bad0faf0f1" />
+<img width="276" height="108" alt="bread" src="https://github.com/user-attachments/assets/15e8a879-1a53-4a86-ab4f-6bb0afefaff3" />
 <br>
-<img width="497" height="109" alt="2026-08-18_16 04 16" src="https://github.com/user-attachments/assets/a70f35e9-a9fb-45d5-97ce-4247a5275062" />
+<img width="519" height="109" alt="cake" src="https://github.com/user-attachments/assets/f2b3161e-130b-4c0c-8c03-003abc88ccfc" />
 <br>
-<img width="600" height="189" alt="2026-08-18_16 04 05" src="https://github.com/user-attachments/assets/1705df1a-6890-40af-bda9-3be1b7c4a2e1" />
+<img width="510" height="107" alt="carrot" src="https://github.com/user-attachments/assets/c33e7b56-168f-4f74-82f5-e2e82eb53f4b" />
 <br>
-<img width="521" height="112" alt="2026-08-18_16 03 54" src="https://github.com/user-attachments/assets/c8ee4cbf-959b-4169-8549-bcaa3ccc1b17" />
+<img width="510" height="112" alt="carrot-golden" src="https://github.com/user-attachments/assets/823d0e37-24f2-4567-948c-21490cf4f2a7" />
 <br>
-<img width="484" height="148" alt="2026-08-18_16 03 39" src="https://github.com/user-attachments/assets/1dc53f35-60e7-420c-b166-bb195aceb171" />
+<img width="521" height="112" alt="chorus-fruit-popped" src="https://github.com/user-attachments/assets/8f4e8dc2-bba1-4bea-83ba-2848b445c371" />
 <br>
-<img width="585" height="113" alt="2026-08-18_16 03 16" src="https://github.com/user-attachments/assets/201b5637-c33b-4bc0-b540-9fe5b0227e40" />
+<img width="372" height="113" alt="cooked-cod" src="https://github.com/user-attachments/assets/97eedf2f-fe78-402b-ae3d-969a18b0ded7" />
 <br>
-<img width="399" height="147" alt="2026-08-18_16 02 49" src="https://github.com/user-attachments/assets/b876a73f-4490-4fc0-89d8-c711b1228c47" />
+<img width="392" height="111" alt="cooked-salmon" src="https://github.com/user-attachments/assets/b3f110c6-8039-49f4-945a-38b6e308be35" />
 <br>
-<img width="427" height="110" alt="2026-08-18_16 01 21" src="https://github.com/user-attachments/assets/60600b82-e405-41fb-8a4e-7571005b2fdd" />
+<img width="440" height="112" alt="cookie" src="https://github.com/user-attachments/assets/38168f1a-86cd-4507-abb5-e32564d698ec" />
 <br>
-<img width="585" height="111" alt="2026-08-18_16 01 14" src="https://github.com/user-attachments/assets/2796db37-aa57-4893-ae26-c8e1f55768b9" />
+<img width="427" height="110" alt="glow-berries" src="https://github.com/user-attachments/assets/b8d66624-c291-400e-95e2-cf29f37bf08f" />
 <br>
-<img width="440" height="112" alt="2026-08-18_16 01 05" src="https://github.com/user-attachments/assets/4c500f03-de8b-4cbc-96b1-6fde273280d3" />
+<img width="399" height="147" alt="honey-bottle" src="https://github.com/user-attachments/assets/234ce92c-e5fe-4784-93c6-17308e8ed1e9" />
 <br>
-<img width="392" height="111" alt="2026-08-18_16 00 55" src="https://github.com/user-attachments/assets/f1f5cb72-8ffb-485e-a997-7f900b408cc8" />
+<img width="585" height="111" alt="kelp-dried" src="https://github.com/user-attachments/assets/4d246b1a-803e-4988-8041-a87e3fac3643" />
 <br>
-<img width="372" height="113" alt="2026-08-18_16 00 47" src="https://github.com/user-attachments/assets/1f7e576c-bfc5-4429-aa2a-f6f0f723a609" />
+<img width="590" height="111" alt="melon-block" src="https://github.com/user-attachments/assets/307a7a47-64da-4897-b74d-06d80ceffa0d" />
 <br>
-<img width="505" height="109" alt="2026-08-18_16 00 28" src="https://github.com/user-attachments/assets/26cca50f-7523-406d-b0e2-1fc32d89ef93" />
+<img width="590" height="111" alt="melon-slice" src="https://github.com/user-attachments/assets/7938f646-bdbf-4de5-b643-6d2731aeec32" />
 <br>
-<img width="510" height="107" alt="2026-08-18_16 00 21" src="https://github.com/user-attachments/assets/85be0286-2356-45a0-a24c-04ac077b8a5d" />
+<img width="588" height="111" alt="melon-slice-glistering" src="https://github.com/user-attachments/assets/ee1a3723-667c-461a-904d-8a0a09ac6170" />
 <br>
-<img width="519" height="109" alt="2026-08-18_16 00 10" src="https://github.com/user-attachments/assets/25bc1ae9-0553-49a8-a9d7-4277306a4365" />
+<img width="484" height="148" alt="mushroom-stew" src="https://github.com/user-attachments/assets/1e6b0665-6cd9-4d76-b2ca-0629d3d3470a" />
 <br>
-<img width="276" height="108" alt="2026-08-18_15 59 38" src="https://github.com/user-attachments/assets/dd874738-ab01-4d16-86bb-880f61337884" />
+<img width="497" height="110" alt="potato-baked" src="https://github.com/user-attachments/assets/f96df250-69f8-4dbc-a18d-0e86356968f8" />
 <br>
-<img width="461" height="110" alt="2026-08-18_15 59 22" src="https://github.com/user-attachments/assets/ebcd5dec-1f63-41c2-835c-467c6f15d4f3" />
+<img width="600" height="189" alt="pufferfish" src="https://github.com/user-attachments/assets/55190f7d-8bd6-4050-b488-3e72997d58a8" />
 <br>
-<img width="497" height="110" alt="2026-08-18_15 58 53" src="https://github.com/user-attachments/assets/50709dee-b502-4a1b-a54b-113ec2e418c0" />
+<img width="497" height="109" alt="pumpkin-pie" src="https://github.com/user-attachments/assets/c42f3fad-d388-440e-94cb-e79c72af9954" />
 <br>
-<img width="538" height="108" alt="2026-08-18_15 56 38" src="https://github.com/user-attachments/assets/03af5879-db5e-42f3-b0f6-c5416a78e9de" />
+<img width="509" height="229" alt="rabbit-stew" src="https://github.com/user-attachments/assets/085fc505-ad90-40b0-951b-f0d3f0cdc80e" />
+<br>
+<img width="479" height="194" alt="spider-eye" src="https://github.com/user-attachments/assets/f0580c19-fa50-4193-b186-6a46977a3d2c" />
+<br>
+<img width="531" height="107" alt="sweet-berries" src="https://github.com/user-attachments/assets/8b2dd1b4-7958-4c23-a40c-b1b0a962a4a1" />
+
+
 </details>
 
 ## Blasting
 An easier way to obtain common building blocks in bulk without defacing a biome.
 
-<img width="692" height="276" alt="2026-08-18_16 09 40" src="https://github.com/user-attachments/assets/4166d326-fa1b-4288-b974-4cb202be6269" />
+<img width="692" height="276" alt="gravel_from_cobblestone" src="https://github.com/user-attachments/assets/4166d326-fa1b-4288-b974-4cb202be6269" />
 
 Smooth stone is still obtainable from a regular furnace.
 
-<img width="692" height="280" alt="2026-08-18_16 09 52" src="https://github.com/user-attachments/assets/97e301e0-c816-4dff-9f80-834996497b1b" />
+<img width="692" height="280" alt="sand_from_gravel" src="https://github.com/user-attachments/assets/97e301e0-c816-4dff-9f80-834996497b1b" />
 <br>
-<img width="852" height="284" alt="2026-08-18_16 10 02" src="https://github.com/user-attachments/assets/1982c26a-a8b1-4879-a8a6-7c240527e1e9" />
+<img width="852" height="284" alt="quartz_from_gravel" src="https://github.com/user-attachments/assets/1982c26a-a8b1-4879-a8a6-7c240527e1e9" />
 
 Glass is still obtainable from a regular furnace.
 
@@ -85,39 +96,37 @@ Glass is still obtainable from a regular furnace.
 ### Gunpowder
 Rockets should not be locked behind a creeper farm, and let's give some more utility to sulfur.
 
-<img width="692" height="283" alt="2026-08-18_16 09 14" src="https://github.com/user-attachments/assets/25e1e801-a25a-4f88-9cb1-69ba9c43ccbf" />
+<img width="692" height="283" alt="gunpowder_from_sulfur_spike" src="https://github.com/user-attachments/assets/25e1e801-a25a-4f88-9cb1-69ba9c43ccbf" />
 <br>
-<img width="696" height="281" alt="2026-08-18_16 09 07" src="https://github.com/user-attachments/assets/fd2a362b-b1ec-4779-ba3c-090c1507eba7" />
+<img width="696" height="281" alt="gunpowder_from_sulfur" src="https://github.com/user-attachments/assets/fd2a362b-b1ec-4779-ba3c-090c1507eba7" />
 <br>
-<img width="809" height="286" alt="2026-08-18_16 08 56" src="https://github.com/user-attachments/assets/6adb6b24-c0ab-4077-9f0b-695711d545da" />
+<img width="809" height="286" alt="gunpowder_from_various" src="https://github.com/user-attachments/assets/6adb6b24-c0ab-4077-9f0b-695711d545da" />
 
 Works with coal or charcoal.
 
 ### Prismarine
 Prismarine items should not be locked behind a guardian farm, and let's give some more utility to copper.
 
-<img width="802" height="281" alt="2026-08-18_16 06 23" src="https://github.com/user-attachments/assets/5fad4f35-2cd1-4405-b3c3-39875c8f3465" />
+<img width="802" height="281" alt="prismarine" src="https://github.com/user-attachments/assets/5fad4f35-2cd1-4405-b3c3-39875c8f3465" />
 <br>
-<img width="943" height="279" alt="2026-08-18_16 06 30" src="https://github.com/user-attachments/assets/008833e8-6efa-4f85-9dc0-3126e6175471" />
+<img width="943" height="279" alt="prismarine-bricks" src="https://github.com/user-attachments/assets/008833e8-6efa-4f85-9dc0-3126e6175471" />
 <br>
-<img width="915" height="283" alt="2026-08-18_16 06 47" src="https://github.com/user-attachments/assets/924c20b0-e337-4941-b0cc-a29985727505" />
+<img width="915" height="283" alt="prismarine-dark" src="https://github.com/user-attachments/assets/924c20b0-e337-4941-b0cc-a29985727505" />
 
 Still need prismarine crystals for sea lanterns so I'll think of something else for that, stay tuned.
 
 ### Other
 Various quality of life improvements.
 
-<img width="721" height="282" alt="2026-08-18_16 07 55" src="https://github.com/user-attachments/assets/1daea47c-306a-47c1-a414-231c0fda8851" />
+<img width="721" height="282" alt="string-from-wool" src="https://github.com/user-attachments/assets/1daea47c-306a-47c1-a414-231c0fda8851" />
 <br>
-<img width="727" height="280" alt="2026-08-18_16 07 36" src="https://github.com/user-attachments/assets/4aab2ef3-9bbf-47fa-badc-463a245a730e" />
-
-Paired with a gravel block drop change, see further below.
-
-<img width="789" height="280" alt="2026-08-18_16 07 18" src="https://github.com/user-attachments/assets/d415bdce-4c9c-4bb1-93dd-30840dff4d5d" />
+<img width="682" height="270" alt="flint-from-gravel" src="https://github.com/user-attachments/assets/bc2ed5d5-b8ec-441f-bba4-ad1f29550742" />
+<br>
+<img width="789" height="280" alt="black-dye-from-coal" src="https://github.com/user-attachments/assets/d415bdce-4c9c-4bb1-93dd-30840dff4d5d" />
 
 Works with coal or charcoal.
 
-<img width="825" height="284" alt="2026-08-18_16 06 59" src="https://github.com/user-attachments/assets/3c0ecb35-2476-4875-ac35-3755c05b6410" />
+<img width="825" height="284" alt="saplings-from-leaves" src="https://github.com/user-attachments/assets/3c0ecb35-2476-4875-ac35-3755c05b6410" />
 
 Works with all leaves/saplings.
 
@@ -147,9 +156,9 @@ Some give WAY better bang for your buck, so check it out.
 ## Drops
 Small changes to make flint, dirt, feathers, and leather easier to obtain.
 
-- Gravel drops 1 dirt and 1 flint (change)
-  - Fortune doesn’t affect
-  - Silk touch drops gravel
-  - Gravel can now be crafted from dirt and flint (see above)
-- Zombies drop 0-1 leather (addition)
+- Gravel just drops gravel (change)
+  - Enchantments don't affect
+  - Craft 1 gravel into 3 flint (see above)
+- Zombies drop leather 25% of the time (addition)
+  - Looting increases it by 10% per level
 - Chickens lay feathers, like how they do with eggs (addition)
