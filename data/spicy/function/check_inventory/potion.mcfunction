@@ -1,0 +1,40 @@
+tellraw @a "running potion function"
+execute if items entity @s container.0 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_potion
+execute if items entity @s container.1 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_potion
+execute if items entity @s container.2 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_potion
+execute if items entity @s container.3 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.3 spicy:update_potion
+execute if items entity @s container.4 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.4 spicy:update_potion
+execute if items entity @s container.5 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.5 spicy:update_potion
+execute if items entity @s container.6 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.6 spicy:update_potion
+execute if items entity @s container.7 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.7 spicy:update_potion
+execute if items entity @s container.8 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.8 spicy:update_potion
+execute if items entity @s container.9 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.9 spicy:update_potion
+execute if items entity @s container.10 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.10 spicy:update_potion
+execute if items entity @s container.11 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.11 spicy:update_potion
+execute if items entity @s container.12 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.12 spicy:update_potion
+execute if items entity @s container.13 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.13 spicy:update_potion
+execute if items entity @s container.14 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.14 spicy:update_potion
+execute if items entity @s container.15 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.15 spicy:update_potion
+execute if items entity @s container.16 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.16 spicy:update_potion
+execute if items entity @s container.17 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.17 spicy:update_potion
+execute if items entity @s container.18 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.18 spicy:update_potion
+execute if items entity @s container.19 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.19 spicy:update_potion
+execute if items entity @s container.20 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.20 spicy:update_potion
+execute if items entity @s container.21 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.21 spicy:update_potion
+execute if items entity @s container.22 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.22 spicy:update_potion
+execute if items entity @s container.23 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.23 spicy:update_potion
+execute if items entity @s container.24 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.24 spicy:update_potion
+execute if items entity @s container.25 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.25 spicy:update_potion
+execute if items entity @s container.26 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.26 spicy:update_potion
+execute if items entity @s container.27 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.27 spicy:update_potion
+execute if items entity @s container.28 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.28 spicy:update_potion
+execute if items entity @s container.29 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.29 spicy:update_potion
+execute if items entity @s container.30 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.30 spicy:update_potion
+execute if items entity @s container.31 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.31 spicy:update_potion
+execute if items entity @s container.32 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.32 spicy:update_potion
+execute if items entity @s container.33 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.33 spicy:update_potion
+execute if items entity @s container.34 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.34 spicy:update_potion
+execute if items entity @s container.35 #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.35 spicy:update_potion
+execute if items entity @s weapon.offhand #minecraft:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s weapon.offhand spicy:update_potion
+
+advancement revoke @s only spicy:potion_inventory_changed

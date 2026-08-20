@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "potion_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:potion"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/potion"
+  }
+}
