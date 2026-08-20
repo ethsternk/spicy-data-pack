@@ -112,8 +112,8 @@ Prismarine items should not be locked behind a guardian farm, and let's give som
 <img width="943" height="279" alt="prismarine-bricks" src="https://github.com/user-attachments/assets/008833e8-6efa-4f85-9dc0-3126e6175471" />
 <br>
 <img width="915" height="283" alt="prismarine-dark" src="https://github.com/user-attachments/assets/924c20b0-e337-4941-b0cc-a29985727505" />
-
-Still need prismarine crystals for sea lanterns so I'll think of something else for that, stay tuned.
+<br>
+image here
 
 ### Other
 Various quality of life improvements.
