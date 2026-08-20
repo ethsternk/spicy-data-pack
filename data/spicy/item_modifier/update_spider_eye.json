@@ -11,6 +11,11 @@
                 "text": "💀 Poison (0:05)",
                 "color": "green",
                 "italic": false
+            },
+            {
+                "text": "🕸 Weaving (5:00)",
+                "color": "#d3d3d3",
+                "italic": false
             }
         ],
         "minecraft:consumable": {
@@ -27,6 +32,12 @@
                         {
                             "id": "minecraft:poison",
                             "duration": 100,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "minecraft:weaving",
+                            "duration": 6000,
                             "show_particles": false,
                             "show_icon": true
                         }

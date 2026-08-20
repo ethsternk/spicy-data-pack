@@ -3,8 +3,8 @@
     "components": {
         "minecraft:lore": [
             {
-                "text": "👁 Night Vision (2:00)",
-                "color": "green",
+                "text": "🔥 Fire Resistance (2:00)",
+                "color": "gold",
                 "italic": false
             }
         ],
@@ -14,7 +14,7 @@
                     "type": "minecraft:apply_effects",
                     "effects": [
                         {
-                            "id": "minecraft:night_vision",
+                            "id": "minecraft:fire_resistance",
                             "duration": 2400,
                             "show_particles": false,
                             "show_icon": true
@@ -24,8 +24,8 @@
             ]
         },
         "minecraft:food": {
-            "nutrition": 6,
-            "saturation": 14.4,
+            "nutrition": 4,
+            "saturation": 4.8,
             "can_always_eat": true
         },
         "minecraft:custom_data": {

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "glistering_melon_slice_inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glistering_melon_slice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spicy:check_inventory/glistering_melon_slice"
+  }
+}
