@@ -113,7 +113,7 @@ Prismarine items should not be locked behind a guardian farm, and let's give som
 <br>
 <img width="915" height="283" alt="prismarine-dark" src="https://github.com/user-attachments/assets/924c20b0-e337-4941-b0cc-a29985727505" />
 <br>
-image here
+<img width="841" height="281" alt="prismarine-sea-lantern" src="https://github.com/user-attachments/assets/5073b884-c27f-4b64-9a4a-beb3681236dc" />
 
 ### Other
 Various quality of life improvements.
