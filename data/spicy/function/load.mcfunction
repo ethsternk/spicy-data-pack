@@ -13,6 +13,7 @@ advancement revoke @a only spicy:glow_berries_inventory_changed
 advancement revoke @a only spicy:golden_carrot_inventory_changed
 advancement revoke @a only spicy:honey_bottle_inventory_changed
 advancement revoke @a only spicy:glistering_melon_slice_inventory_changed
+advancement revoke @a only spicy:melon_inventory_changed
 advancement revoke @a only spicy:melon_slice_inventory_changed
 advancement revoke @a only spicy:mushroom_stew_inventory_changed
 advancement revoke @a only spicy:popped_chorus_fruit_inventory_changed

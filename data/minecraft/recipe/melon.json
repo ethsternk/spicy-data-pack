@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice"
+  ],
+  "result": {
+    "id": "minecraft:melon",
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "🔥 Fire Resistance (1:00)",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 4.8,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:fire_resistance",
+                "duration": 1200,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 18,
+        "saturation": 10.8,
+        "can_always_eat": true
+      },
+      "minecraft:custom_data": {
+        "spicy_version": "v1"
+      }
+    }
+  }
+}
