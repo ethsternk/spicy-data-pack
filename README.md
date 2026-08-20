@@ -75,13 +75,13 @@ There are ~20 new food effects in total, but only open that full list below if y
 <br>
 <img width="531" height="107" alt="sweet-berries" src="https://github.com/user-attachments/assets/8b2dd1b4-7958-4c23-a40c-b1b0a962a4a1" />
 
-
 </details>
 
 ## Potions
 Potions are also now stackable to 64.
 
-image here
+<img width="568" height="111" alt="potions-stackable" src="https://github.com/user-attachments/assets/c91502ed-c70b-4d22-91d6-06acc71b2456" />
+
 
 ## Blasting
 An easier way to obtain common building blocks in bulk without defacing a biome.
