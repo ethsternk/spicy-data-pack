@@ -78,6 +78,11 @@ There are ~20 new food effects in total, but only open that full list below if y
 
 </details>
 
+## Potions
+Potions are also now stackable to 64.
+
+image here
+
 ## Blasting
 An easier way to obtain common building blocks in bulk without defacing a biome.
 
