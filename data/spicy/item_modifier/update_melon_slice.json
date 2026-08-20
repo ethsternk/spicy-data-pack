@@ -3,7 +3,7 @@
     "components": {
         "minecraft:lore": [
             {
-                "text": "🔥 Fire Resistance (1:00)",
+                "text": "🔥 Fire Resistance (0:10)",
                 "color": "gold",
                 "italic": false
             }
@@ -15,7 +15,7 @@
                     "effects": [
                         {
                             "id": "minecraft:fire_resistance",
-                            "duration": 1200,
+                            "duration": 200,
                             "show_particles": false,
                             "show_icon": true
                         }
