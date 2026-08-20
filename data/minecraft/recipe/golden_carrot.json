@@ -14,7 +14,7 @@
     "components": {
       "minecraft:lore": [
         {
-          "text": "👁 Night Vision (1:30)",
+          "text": "👁 Night Vision (2:00)",
           "color": "green",
           "italic": false
         }
@@ -26,7 +26,7 @@
             "effects": [
               {
                 "id": "minecraft:night_vision",
-                "duration": 1800,
+                "duration": 2400,
                 "show_particles": false,
                 "show_icon": true
               }
