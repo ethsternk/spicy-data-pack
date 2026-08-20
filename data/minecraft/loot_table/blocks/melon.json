@@ -37,7 +37,7 @@
                       }
                     ],
                     "minecraft:consumable": {
-                      "consume_seconds": 4.8,
+                      "consume_seconds": 8,
                       "on_consume_effects": [
                         {
                           "type": "minecraft:apply_effects",
