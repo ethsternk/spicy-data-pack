@@ -82,7 +82,6 @@ Potions are also now stackable to 64.
 
 <img width="568" height="111" alt="potions-stackable" src="https://github.com/user-attachments/assets/c91502ed-c70b-4d22-91d6-06acc71b2456" />
 
-
 ## Blasting
 An easier way to obtain common building blocks in bulk without defacing a biome.
 
