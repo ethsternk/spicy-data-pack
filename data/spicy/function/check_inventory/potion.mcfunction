@@ -1,4 +1,4 @@
-tellraw @a "running potion function"
+# tellraw @a "running potion function"
 execute if items entity @s container.0 #spicy:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.0 spicy:update_potion
 execute if items entity @s container.1 #spicy:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.1 spicy:update_potion
 execute if items entity @s container.2 #spicy:potion[!minecraft:custom_data={spicy_version:"v1"}] run item modify entity @s container.2 spicy:update_potion
