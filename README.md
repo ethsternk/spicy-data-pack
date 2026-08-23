@@ -69,7 +69,7 @@ There are ~20 new food effects in total, but only open that full list below if y
 <br>
 <img width="497" height="109" alt="pumpkin-pie" src="https://github.com/user-attachments/assets/c42f3fad-d388-440e-94cb-e79c72af9954" />
 <br>
-<img width="509" height="229" alt="rabbit-stew" src="https://github.com/user-attachments/assets/085fc505-ad90-40b0-951b-f0d3f0cdc80e" />
+<img width="547" height="230" alt="rabbit-stew" src="https://github.com/user-attachments/assets/96ca8f02-391f-479c-b154-5c866a447653" />
 <br>
 <img width="479" height="194" alt="spider-eye" src="https://github.com/user-attachments/assets/f0580c19-fa50-4193-b186-6a46977a3d2c" />
 <br>
