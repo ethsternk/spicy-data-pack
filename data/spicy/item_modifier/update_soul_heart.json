@@ -3,30 +3,20 @@
   "components": {
     "minecraft:lore": [
       {
-        "text": "Soul Heart (Consumable)",
-        "color": "gray",
-        "italic": false
-      },
-      {
-        "text": "+1 Max ❤",
-        "color": "#e85e8f",
-        "italic": false
-      },
-      {
-        "text": "Keep Inventory on Death 1x",
-        "color": "dark_purple",
-        "italic": false
+        "text": "Soul Heart",
+        "color": "#538481",
+        "italic": true
       }
     ],
     "minecraft:food": {
-      "nutrition": 1,
-      "saturation": 1.2,
+      "nutrition": 20,
+      "saturation": 20,
       "can_always_eat": true
     },
     "minecraft:consumable": {
-      "consume_seconds": 1.6,
+      "consume_seconds": 2,
       "animation": "eat",
-      "sound": "minecraft:entity.player.burp",
+      "sound": "minecraft:block.amethyst_block.hit",
       "has_consume_particles": true
     },
     "minecraft:custom_data": {
