@@ -1,2 +1,0 @@
-execute as @a if items entity @s player.cursor *[minecraft:repair_cost] unless items entity @s player.cursor *[minecraft:repair_cost=0] run item modify entity @s player.cursor {"function":"minecraft:set_components","components":{"minecraft:repair_cost":0}}
-schedule function mizi_repair_cost:reset 5t
