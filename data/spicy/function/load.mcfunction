@@ -28,9 +28,10 @@ advancement revoke @a only spicy:sweet_berries_inventory_changed
 scoreboard objectives add spicy.ate_cake minecraft.custom:minecraft.eat_cake_slice
 
 # soul hearts
+gamerule keep_inventory true
 scoreboard objectives add spicy.soul_health dummy
-# scoreboard objectives add spicy.time_since_death minecraft.custom:minecraft.time_since_death
-# scoreboard objectives add spicy.keep_inventory dummy
+scoreboard objectives add spicy.time_since_death minecraft.custom:minecraft.time_since_death
+scoreboard objectives add spicy.keep_inventory dummy
 
 # we good fam
 tellraw @a "spicy data pack loaded"
