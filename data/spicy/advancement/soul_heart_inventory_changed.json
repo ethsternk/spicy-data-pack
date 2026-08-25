@@ -20,6 +20,6 @@
         }
     },
     "rewards": {
-        "function": "spicy:soul_heart/check_inventory_tag"
+        "function": "spicy:check_inventory/soul_heart"
     }
 }

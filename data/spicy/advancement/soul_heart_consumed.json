@@ -15,7 +15,7 @@
                     ],
                     "components": {
                         "minecraft:custom_data": {
-                            "spicy_soul_heart": true
+                            "spicy_version": "v1"
                         }
                     }
                 }
