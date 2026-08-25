@@ -36,4 +36,5 @@ execute if items entity @s container.34 #spicy:soul_hearts[!minecraft:custom_dat
 execute if items entity @s container.35 #spicy:soul_hearts[!minecraft:custom_data={spicy_soul_heart:true}] run item modify entity @s container.35 spicy:soul_heart
 execute if items entity @s weapon.offhand #spicy:soul_hearts[!minecraft:custom_data={spicy_soul_heart:true}] run item modify entity @s weapon.offhand spicy:soul_heart
 execute if items entity @s weapon.mainhand #spicy:soul_hearts[!minecraft:custom_data={spicy_soul_heart:true}] run item modify entity @s weapon.mainhand spicy:soul_heart
+
 advancement revoke @s only spicy:soul_heart_inventory_changed

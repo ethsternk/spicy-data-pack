@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "consume_soul_heart": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:nether_star",
+                        "minecraft:dragon_egg",
+                        "minecraft:enchanted_golden_apple",
+                        "minecraft:dragon_head",
+                        "minecraft:totem_of_undying",
+                        "minecraft:heavy_core",
+                        "minecraft:heart_of_the_sea"
+                    ],
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spicy_soul_heart": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "spicy:soul_heart/consumed"
+    }
+}

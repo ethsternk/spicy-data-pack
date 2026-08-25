@@ -20,10 +20,17 @@ advancement revoke @a only spicy:popped_chorus_fruit_inventory_changed
 advancement revoke @a only spicy:pufferfish_inventory_changed
 advancement revoke @a only spicy:pumpkin_pie_inventory_changed
 advancement revoke @a only spicy:rabbit_stew_inventory_changed
+advancement revoke @a only spicy:soul_heart_consumed
+advancement revoke @a only spicy:soul_heart_inventory_changed
 advancement revoke @a only spicy:sweet_berries_inventory_changed
 
 # detect cake eating
 scoreboard objectives add spicy.ate_cake minecraft.custom:minecraft.eat_cake_slice
+
+# soul hearts
+scoreboard objectives add spicy.soul_health dummy
+# scoreboard objectives add spicy.time_since_death minecraft.custom:minecraft.time_since_death
+# scoreboard objectives add spicy.keep_inventory dummy
 
 # we good fam
 tellraw @a "spicy data pack loaded"
