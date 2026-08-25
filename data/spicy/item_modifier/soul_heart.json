@@ -3,8 +3,18 @@
   "components": {
     "minecraft:lore": [
       {
-        "text": "Soul Heart: +2 Max Health",
+        "text": "Soul Heart (Consumable)",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "+1 Max ❤",
         "color": "#e85e8f",
+        "italic": false
+      },
+      {
+        "text": "Keep Inventory on Death 1x",
+        "color": "dark_purple",
         "italic": false
       }
     ],
