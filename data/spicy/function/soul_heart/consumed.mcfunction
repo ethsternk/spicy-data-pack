@@ -1,3 +1,7 @@
+# housekeeping
+advancement revoke @s only spicy:soul_heart_consumed
+execute unless entity @s[tag=spicy.soul_health_initialized] run function spicy:soul_heart/initialize
+
 # add heart if under max
 execute if score @s spicy.soul_health matches ..39 run scoreboard players add @s spicy.soul_health 2
 
@@ -14,6 +18,3 @@ playsound minecraft:block.beacon.power_select master @s ~ ~ ~ 1 1
 
 # fancy visual
 particle minecraft:heart ~ ~1 ~ 0.3 0.5 0.3 0 8
-
-# housekeeping
-advancement revoke @s only spicy:soul_heart_consumed

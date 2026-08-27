@@ -1,3 +1,7 @@
+# housekeeping
+advancement revoke @s only spicy:player_died
+execute unless entity @s[tag=spicy.soul_health_initialized] run function spicy:soul_heart/initialize
+
 # drop inventory if at/under min
 execute if score @s spicy.soul_health matches ..20 if score #keep_inventory spicy.keep_inventory matches 1 run function spicy:soul_heart/drop_inventory
 

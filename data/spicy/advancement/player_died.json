@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "spicy:on_player_death"
+        "function": "spicy:soul_heart/player_died"
     }
 }
