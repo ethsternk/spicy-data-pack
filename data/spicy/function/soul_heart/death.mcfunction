@@ -1,6 +1,3 @@
-# housekeeping
-tag @s add spicy.soul_death_seen
-
 # drop inventory if at/under min
 execute if score @s spicy.soul_health matches ..20 if score #keep_inventory spicy.keep_inventory matches 1 run function spicy:soul_heart/drop_inventory
 

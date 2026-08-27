@@ -8,6 +8,7 @@ advancement revoke @a only spicy:carrot_inventory_changed
 advancement revoke @a only spicy:cooked_cod_inventory_changed
 advancement revoke @a only spicy:cooked_salmon_inventory_changed
 advancement revoke @a only spicy:cookie_inventory_changed
+advancement revoke @s only spicy:player_died
 advancement revoke @a only spicy:dried_kelp_inventory_changed
 advancement revoke @a only spicy:glow_berries_inventory_changed
 advancement revoke @a only spicy:golden_carrot_inventory_changed
@@ -30,7 +31,6 @@ scoreboard objectives add spicy.ate_cake minecraft.custom:minecraft.eat_cake_sli
 # soul hearts
 gamerule keep_inventory true
 scoreboard objectives add spicy.soul_health dummy
-scoreboard objectives add spicy.time_since_death minecraft.custom:minecraft.time_since_death
 scoreboard objectives add spicy.keep_inventory dummy
 
 # we good fam
