@@ -3,10 +3,10 @@ advancement revoke @s only spicy:soul_heart_consumed
 execute unless entity @s[tag=spicy.soul_health_initialized] run function spicy:soul_heart/initialize
 
 # add heart if under max
-execute if score @s spicy.soul_health matches ..39 run scoreboard players add @s spicy.soul_health 2
+execute if score @s spicy.soul_health matches ..29 run scoreboard players add @s spicy.soul_health 2
 
 # reset to max if over max (shouldn't happen but fix in advance)
-execute if score @s spicy.soul_health matches 41.. run scoreboard players set @s spicy.soul_health 40
+execute if score @s spicy.soul_health matches 31.. run scoreboard players set @s spicy.soul_health 30
 
 # apply score health to actual health
 function spicy:soul_heart/apply_health

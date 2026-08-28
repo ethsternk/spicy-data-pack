@@ -4,8 +4,3 @@ execute if score @s spicy.soul_health matches 24 run attribute @s minecraft:max_
 execute if score @s spicy.soul_health matches 26 run attribute @s minecraft:max_health base set 26
 execute if score @s spicy.soul_health matches 28 run attribute @s minecraft:max_health base set 28
 execute if score @s spicy.soul_health matches 30 run attribute @s minecraft:max_health base set 30
-execute if score @s spicy.soul_health matches 32 run attribute @s minecraft:max_health base set 32
-execute if score @s spicy.soul_health matches 34 run attribute @s minecraft:max_health base set 34
-execute if score @s spicy.soul_health matches 36 run attribute @s minecraft:max_health base set 36
-execute if score @s spicy.soul_health matches 38 run attribute @s minecraft:max_health base set 38
-execute if score @s spicy.soul_health matches 40 run attribute @s minecraft:max_health base set 40
