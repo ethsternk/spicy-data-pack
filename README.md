@@ -95,7 +95,6 @@ Smooth stone is still obtainable from a regular furnace.
 
 Glass is still obtainable from a regular furnace.
 
-
 ## Crafting
 ### Gunpowder
 Rockets should not be locked behind a creeper farm, and let's give some more utility to sulfur.
@@ -134,6 +133,8 @@ Works with coal or charcoal.
 
 Works with all leaves/saplings.
 
+<img width="799" height="273" alt="glowstone" src="https://github.com/user-attachments/assets/c361edc9-8bc7-4f82-af46-314bd7ed5c9b" />
+
 ## Anvil
 Equipment no longer increases in repair/enchant cost. One set price!
 
@@ -142,7 +143,6 @@ Using Mizi's [Repair Cost Remover](https://modrinth.com/datapack/repair-cost-rem
 <img width="689" height="321" alt="2026-08-18_17 01 24" src="https://github.com/user-attachments/assets/fd7d115d-e176-480d-9255-78ba315b22cf" />
 <br>
 <img width="997" height="470" alt="2026-08-18_17 01 35" src="https://github.com/user-attachments/assets/02fa9b9f-d985-40f7-9696-8a4d4ff13a61" />
-
 
 ## Stonecutting
 The stonecutter now works on copper, iron, and wood.
