@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "consume_soul_heart": {
+        "soul_heart_consumed": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
