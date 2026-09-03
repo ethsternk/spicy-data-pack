@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "soul_heart_dragon_head_consumed": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:dragon_head",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spicy_version": "v1"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "spicy:soul_heart/consumed/dragon_head"
+    }
+}

@@ -1,7 +1,3 @@
-# housekeeping
-advancement revoke @s only spicy:soul_heart_consumed
-execute unless entity @s[tag=spicy.soul_health_initialized] run function spicy:soul_heart/initialize
-
 # add heart if under max
 execute if score @s spicy.soul_health matches ..29 run scoreboard players add @s spicy.soul_health 2
 

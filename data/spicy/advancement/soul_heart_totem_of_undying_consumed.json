@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "soul_heart_totem_of_undying_consumed": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:totem_of_undying",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spicy_version": "v1"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "spicy:soul_heart/consumed/totem_of_undying"
+    }
+}

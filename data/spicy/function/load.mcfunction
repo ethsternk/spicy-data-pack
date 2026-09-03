@@ -21,7 +21,13 @@ advancement revoke @a only spicy:popped_chorus_fruit_inventory_changed
 advancement revoke @a only spicy:pufferfish_inventory_changed
 advancement revoke @a only spicy:pumpkin_pie_inventory_changed
 advancement revoke @a only spicy:rabbit_stew_inventory_changed
-advancement revoke @a only spicy:soul_heart_consumed
+advancement revoke @a only spicy:soul_heart_nether_star_consumed
+advancement revoke @a only spicy:soul_heart_recovery_compass_consumed
+advancement revoke @a only spicy:soul_heart_enchanted_golden_apple_consumed
+advancement revoke @a only spicy:soul_heart_dragon_head_consumed
+advancement revoke @a only spicy:soul_heart_totem_of_undying_consumed
+advancement revoke @a only spicy:soul_heart_heavy_core_consumed
+advancement revoke @a only spicy:soul_heart_heart_of_the_sea_consumed
 advancement revoke @a only spicy:soul_heart_inventory_changed
 advancement revoke @a only spicy:sweet_berries_inventory_changed
 
