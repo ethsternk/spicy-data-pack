@@ -6,10 +6,11 @@ execute unless entity @s[tag=spicy.soul_health_initialized] run function spicy:s
 execute store result score #keep_inventory spicy.keep_inventory run gamerule minecraft:keep_inventory
 execute if score @s spicy.soul_health matches ..20 if score #keep_inventory spicy.keep_inventory matches 1 run function spicy:soul_heart/drop_inventory
 
-# play sound and remove heart if over min
+# play sound, show explanation text, and remove heart if over min
 execute at @s if score @s spicy.soul_health matches 21.. run playsound minecraft:block.glass.break master @s ~ ~ ~ 1.0 0.55
 execute at @s if score @s spicy.soul_health matches 21.. run playsound minecraft:block.respawn_anchor.deplete master @s ~ ~ ~ 1 0.8
 execute at @s if score @s spicy.soul_health matches 21.. run playsound minecraft:block.beacon.deactivate master @s ~ ~ ~ 1 1
+execute if score @s spicy.soul_health matches 21.. run tellraw @s {"text":"You have lost a soul heart! The last of its power was used to retain your items.","color":"#538481"}
 execute if score @s spicy.soul_health matches 21.. run scoreboard players remove @s spicy.soul_health 2
 
 # reset to min if under min (shouldn't happen but fix in advance)
