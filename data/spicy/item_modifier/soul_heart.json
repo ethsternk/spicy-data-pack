@@ -17,7 +17,7 @@
             "components": {
                 "minecraft:lore": [
                     {
-                        "text": "Soul Heart",
+                        "text": "Soul Heart (Consumable)",
                         "color": "#538481",
                         "italic": true
                     }
