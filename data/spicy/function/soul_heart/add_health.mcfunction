@@ -8,7 +8,7 @@ execute if score @s spicy.soul_health matches 31.. run scoreboard players set @s
 function spicy:soul_heart/apply_health
 
 # explanation text
-execute if score @s spicy.soul_health matches 21.. run tellraw @s {"text":"You have gained a soul heart! Its power flows through you.","color":"#538481"}
+execute if score @s spicy.soul_health matches 21.. run tellraw @s {"text":"You have gained a soul heart! Its power courses through your veins.","color":"#538481"}
 
 # fancy sound
 playsound minecraft:block.respawn_anchor.charge master @s ~ ~ ~ 1 1
