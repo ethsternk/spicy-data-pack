@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "soul_heart_inventory_changed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#spicy:soul_heart"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "spicy:check_inventory/soul_heart"
+    }
+}
