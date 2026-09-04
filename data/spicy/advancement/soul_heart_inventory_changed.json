@@ -5,15 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:nether_star",
-                            "minecraft:dragon_egg",
-                            "minecraft:enchanted_golden_apple",
-                            "minecraft:dragon_head",
-                            "minecraft:totem_of_undying",
-                            "minecraft:heavy_core",
-                            "minecraft:heart_of_the_sea"
-                        ]
+                        "items": "#spicy:soul_heart"
                     }
                 ]
             }
