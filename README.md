@@ -65,7 +65,7 @@ There are ~20 new food effects in total, but only open that full list below if y
 <br>
 <img width="497" height="110" alt="potato-baked" src="https://github.com/user-attachments/assets/f96df250-69f8-4dbc-a18d-0e86356968f8" />
 <br>
-<img width="600" height="189" alt="pufferfish" src="https://github.com/user-attachments/assets/55190f7d-8bd6-4050-b488-3e72997d58a8" />
+<img width="593" height="189" alt="pufferfish" src="https://github.com/user-attachments/assets/1fcecfa9-4fb8-430b-a7f3-c0f96a3eca6a" />
 <br>
 <img width="497" height="109" alt="pumpkin-pie" src="https://github.com/user-attachments/assets/c42f3fad-d388-440e-94cb-e79c72af9954" />
 <br>
