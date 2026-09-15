@@ -1,0 +1,73 @@
+﻿{
+    "type": "minecraft:filtered",
+    "item_filter": {
+        "items": "minecraft:spider_eye"
+    },
+    "on_pass": {
+        "type": "minecraft:filtered",
+        "item_filter": {
+            "predicates": {
+                "minecraft:custom_data": {
+                    "spicy_version": "v1"
+                }
+            }
+        },
+        "on_fail": {
+            "type": "minecraft:set_components",
+            "components": {
+                "minecraft:lore": [
+                    {
+                        "text": "👻 Invisibility (0:30)",
+                        "color": "#92b7ce",
+                        "italic": false
+                    },
+                    {
+                        "text": "💀 Poison (0:05)",
+                        "color": "green",
+                        "italic": false
+                    },
+                    {
+                        "text": "🕸 Weaving (5:00)",
+                        "color": "#d3d3d3",
+                        "italic": false
+                    }
+                ],
+                "minecraft:consumable": {
+                    "on_consume_effects": [
+                        {
+                            "type": "minecraft:apply_effects",
+                            "effects": [
+                                {
+                                    "id": "minecraft:invisibility",
+                                    "duration": 600,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                },
+                                {
+                                    "id": "minecraft:poison",
+                                    "duration": 100,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                },
+                                {
+                                    "id": "minecraft:weaving",
+                                    "duration": 6000,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 3.2,
+                    "can_always_eat": true
+                },
+                "minecraft:custom_data": {
+                    "spicy_version": "v1"
+                }
+            }
+        }
+    }
+}
