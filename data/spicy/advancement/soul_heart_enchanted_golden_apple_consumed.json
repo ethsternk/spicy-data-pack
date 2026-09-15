@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "soul_heart_enchanted_golden_apple_consumed": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:enchanted_golden_apple",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spicy_version": "v1"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "spicy:soul_heart/consumed/enchanted_golden_apple"
+    }
+}

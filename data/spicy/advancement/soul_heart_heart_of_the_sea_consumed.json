@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "soul_heart_heart_of_the_sea_consumed": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:heart_of_the_sea",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spicy_version": "v1"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "spicy:soul_heart/consumed/heart_of_the_sea"
+    }
+}
