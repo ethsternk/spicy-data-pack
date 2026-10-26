@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "soul_heart_recovery_compass_consumed": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:recovery_compass",
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spicy_version": "v1"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "spicy:soul_heart/consumed/recovery_compass"
+    }
+}
