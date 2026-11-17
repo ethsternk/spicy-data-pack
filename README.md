@@ -145,7 +145,7 @@ Using Mizi's [Repair Cost Remover](https://modrinth.com/datapack/repair-cost-rem
 <img width="997" height="470" alt="2026-08-18_17 01 35" src="https://github.com/user-attachments/assets/02fa9b9f-d985-40f7-9696-8a4d4ff13a61" />
 
 ## Stonecutting
-The stonecutter now works on copper, iron, and wood.
+The stonecutter now works on copper, iron, wood, wool, and glass!
 
 Using most stonecutter recipes from Klei_Wright's [Matcha Flavoured](https://modrinth.com/datapack/matcha-flavoured).
 
