@@ -95,6 +95,282 @@
           }
         ]
       }
+    },
+    "repair_cost_511": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 511
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_1023": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 1023
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_2047": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 2047
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_4095": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 4095
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_8191": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 8191
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_16383": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 16383
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_32767": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 32767
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_65535": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 65535
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_131071": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 131071
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_262143": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 262143
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_524287": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 524287
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_1048575": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 1048575
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_2097151": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 2097151
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_4194303": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 4194303
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_8388607": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 8388607
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_16777215": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 16777215
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_33554431": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 33554431
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_67108863": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 67108863
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_134217727": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 134217727
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_268435455": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 268435455
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_536870911": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 536870911
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_1073741823": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 1073741823
+            }
+          }
+        ]
+      }
+    },
+    "repair_cost_2147483647": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:repair_cost": 2147483647
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -106,7 +382,30 @@
       "repair_cost_31",
       "repair_cost_63",
       "repair_cost_127",
-      "repair_cost_255"
+      "repair_cost_255",
+      "repair_cost_511",
+      "repair_cost_1023",
+      "repair_cost_2047",
+      "repair_cost_4095",
+      "repair_cost_8191",
+      "repair_cost_16383",
+      "repair_cost_32767",
+      "repair_cost_65535",
+      "repair_cost_131071",
+      "repair_cost_262143",
+      "repair_cost_524287",
+      "repair_cost_1048575",
+      "repair_cost_2097151",
+      "repair_cost_4194303",
+      "repair_cost_8388607",
+      "repair_cost_16777215",
+      "repair_cost_33554431",
+      "repair_cost_67108863",
+      "repair_cost_134217727",
+      "repair_cost_268435455",
+      "repair_cost_536870911",
+      "repair_cost_1073741823",
+      "repair_cost_2147483647"
     ]
   ],
   "rewards": {
